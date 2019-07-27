@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
+let hero = StructHero(name: "Iron Man", universe: "Marvel")
 
+print(hero.reverseName())
+
+//var otherMarvelHero = hero
+//otherMarvelHero.name = "Hulk"
+//
+//var avengers = [hero, otherMarvelHero]
+//
+//avengers[0].name = "Thor"
+//
+//print("Hero name is \(hero.name)")
+//print("Other hero name is \(otherMarvelHero.name)")
+//print("First Avenger name is \(avengers[0].name)")
